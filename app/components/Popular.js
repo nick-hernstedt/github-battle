@@ -5,7 +5,7 @@ export default class Popular extends React.Component {
     const languages = ["All", "JavaScript", "Ruby", "Java", "CSS", "Python"];
     return (
       <ul className="flex-center">
-        {languages.map((language, index) => (
+        {languages.map((language) => (
           <li key={language}>
             <button className="btn-clear nav-link">{language}</button>
           </li>
